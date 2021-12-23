@@ -1,0 +1,31 @@
+{
+    "name": "thoughtco/statamic-instagram-instanttokens",
+    "description": "Use Instant Tokens to update your Instagram basic display token",
+    "autoload": {
+        "psr-4": {
+            "Thoughtco\\InstagramInstantTokens\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ryan Mitchell"
+        }
+    ],
+    "support": {
+        "email": "help@thoughtcollective.com"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Instragram Instant Tokens",
+            "description": "Use Instant Tokens to update your Instagram basic display token"
+        },
+        "laravel": {
+            "providers": [
+                "Thoughtco\\InstagramInstantTokens\\ServiceProvider"
+            ]
+        }
+    },
+    requires: {
+        "nineteensquared/instagram": "^1.1.0"
+    }
+}
