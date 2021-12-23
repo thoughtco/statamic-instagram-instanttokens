@@ -25,7 +25,7 @@
             ]
         }
     },
-    requires: {
+    "requires": {
         "nineteensquared/instagram": "^1.1.0"
     }
 }
