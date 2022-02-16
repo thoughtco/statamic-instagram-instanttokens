@@ -8,6 +8,6 @@ class ServiceProvider extends AddonServiceProvider
 {
     public function bootAddon()
     {
-        Instagram::renewToken();
+        (new Instagram())->renewToken();
     }
 }
